@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 #include "support.cu"
-#include "support.h"
+//#include "support.h"
 #include "kernel.cu"
 
 int main(int argc, char* argv[])
