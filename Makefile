@@ -5,6 +5,8 @@ LD_FLAGS    = -lcudart -L/usr/local/cuda/lib64
 EXE	        = reduction
 OBJ	        = main.o support.o
 
+ARCH=-arch=sm_21
+
 default: $(EXE)
 
 main.o: main.cu kernel.cu support.h
